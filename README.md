@@ -75,12 +75,22 @@ glaucoma_cnn_lag/
 │   ├── evaluate.py
 │   ├── utils.py
 │   ├── metrics.py
-│   ├── compare_models.py
+│   ├── compare_maodels.py
 │   └── main.py
 │
 ├── generate_xai.py
 ├── generate_xai_missclassified.py
 ├── run_all_models.py
+|
+|
+├──vision_transformer/
+|   │
+|   ├── models_vit.py
+|   ├── train_vit.py
+|   ├── vit_explainability.py
+|   ├── generate_vit_xai.py
+|   └── checkpoints_vit/
+|
 └── requirements.txt
 ```
 
