@@ -1,12 +1,18 @@
-Here’s a clean, professional **GitHub README.md** for your project 👇
 
----
+
 
 # 🧠 Comparative Evaluation of Standard CNNs with Explainability on LAG Dataset
 
 This project performs a **systematic comparison of popular CNN architectures** for **glaucoma detection** using the **LAG (Labelled Anterior Glaucoma) dataset**, with an added focus on **model explainability (XAI)**.
 
 It is designed to be **modular, extensible, and research-friendly**, allowing easy integration of multiple models and explainability techniques.
+
+## Dataset
+
+The LAG dataset is not included in this repository due to size constraints.
+
+Download it from:
+[https://www.kaggle.com/datasets/toaharahmanratul/lag-dataset]
 
 ---
 
