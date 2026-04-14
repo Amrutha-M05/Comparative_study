@@ -8,6 +8,13 @@ This project performs a **systematic comparison of popular CNN architectures** f
 
 It is designed to be **modular, extensible, and research-friendly**, allowing easy integration of multiple models and explainability techniques.
 
+## Dataset
+
+The LAG dataset is not included in this repository due to size constraints.
+
+Download it from:
+[https://www.kaggle.com/datasets/toaharahmanratul/lag-dataset]
+
 ---
 
 ## 🚀 Supported Models
