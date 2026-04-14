@@ -143,6 +143,29 @@ outputs/
 └── xai/           # Heatmaps & explanations
 ```
 
+
+---
+
+## 📊 Model Performance Comparison
+
+| Model           | Accuracy   | Sensitivity | Specificity | Precision  | F1 Score   | F2 Score   | ROC-AUC    | PR-AUC     | TN  | FP | FN | TP  |
+| --------------- | ---------- | ----------- | ----------- | ---------- | ---------- | ---------- | ---------- | ---------- | --- | -- | -- | --- |
+| EfficientNet-B0 | 96.29%     | 94.23%      | 98.35%      | 98.28%     | 96.21%     | 95.01%     | 0.9935     | 0.9941     | 477 | 8  | 28 | 457 |
+| DenseNet121     | **97.01%** | 94.85%      | **99.18%**  | **99.14%** | **96.94%** | 95.67%     | **0.9934** | **0.9951** | 481 | 4  | 25 | 460 |
+| ResNet50        | 96.70%     | 94.85%      | 98.56%      | 98.50%     | 96.64%     | 95.55%     | 0.9909     | 0.9899     | 478 | 7  | 25 | 460 |
+| VGG16           | 94.23%     | 95.88%      | 92.58%      | 92.81%     | 94.32%     | 95.25%     | 0.9879     | 0.9881     | 449 | 36 | 20 | 465 |
+| MobileNetV2     | 95.67%     | **97.11%**  | 94.23%      | 94.39%     | 95.73%     | **96.56%** | 0.9857     | 0.9796     | 457 | 28 | 14 | 471 |
+
+---
+
+## 🏆 Key Insights
+
+* **Best Overall Model:** DenseNet121 (highest accuracy & precision)
+* **Best Sensitivity:** MobileNetV2 (detects glaucoma cases best)
+* **Best Specificity:** DenseNet121 (fewest false positives)
+* **Most Balanced Performance:** ResNet50 / EfficientNet-B0
+
+
 ---
 
 ## 🎯 How to Interpret Heatmaps (Grad-CAM)
